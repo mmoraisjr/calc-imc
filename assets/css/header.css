@@ -1,0 +1,7 @@
+@import url(_reset.css);
+@import url(_style.css);
+
+header{
+    background-color: var(--cinza);
+    height: 100px;
+}

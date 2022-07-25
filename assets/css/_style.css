@@ -1,11 +1,16 @@
 :root {
     --azul: #3772FF;
     --verde: #36D6AD;
-    --coral: #FC7071;
-    --creme: #FCF0E3;
+    --vermelho: #FC7071;
+    --amarelo: #f1f381;
     --cinza: #737380;
-    --cinza-claro: #e4e3e3;
-    --cinza-claro2: #f7f7f7;
 
-    --familia-corpo: 'Poppins', sans-serif;
+    --fonte: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: var(--azul);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte);
 }
