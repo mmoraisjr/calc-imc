@@ -19,6 +19,6 @@ Depois de obter o resultado de IMC, deve-se interpretar o valor utilizando a seg
 
 ## Etapas do projeto
 - [x] DEFINIR PALETA DE CORES;
-- [ ] DEFINIR DESIGN DA PÁGINA;
+- [X] DEFINIR DESIGN DA PÁGINA;
 - [ ] APLICAR AÇÃO DE CALCULAR;
-- [ ] ADICIONAR BOTÃO DE DISCLAIMER;
+- [ ] ADICIONAR BOTÃO DE DESCRIÇÃO E ORIENTAÇÃO;
