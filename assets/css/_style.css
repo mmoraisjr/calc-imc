@@ -1,9 +1,21 @@
 :root {
-    --azul: #3772FF;
-    --verde: #36D6AD;
+    --azul: #0e2e79;
+    --verde: #0d5779;
     --vermelho: #FC7071;
     --amarelo: #f1f381;
     --cinza: #737380;
+
+    --off-vermelho: #e3084a80;
+    --off-laranja: #eb5a5280;
+    --off-amarelo: #eebb5588;
+    --off-azul: #75a1ff86;
+    --off-verde: #29767a83;
+
+    --on-vermelho: #e30849;
+    --on-laranja: #eb5952;
+    --on-amarelo: #eebb55;
+    --on-azul: #75a0ff;
+    --on-verde: #29767a;
 
     --fonte: 'Roboto Condensed', sans-serif;
 }

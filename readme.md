@@ -1,4 +1,4 @@
-##Calculadora de IMC
+# Calculadora de IMC
 
 Projeto idealizado para usuários acessarem e realizarem o calculo do seu indice de massa corporal.
 
@@ -16,3 +16,9 @@ Depois de obter o resultado de IMC, deve-se interpretar o valor utilizando a seg
 |  30 a 34,9 |  Obesidade grau I |
 |  35 a 39,9 |  Obesidade grau II |
 |  Maior que 40 |  Obesidade grau III |
+
+## Etapas do projeto
+- [x] DEFINIR PALETA DE CORES;
+- [ ] DEFINIR DESIGN DA PÁGINA;
+- [ ] APLICAR AÇÃO DE CALCULAR;
+- [ ] ADICIONAR BOTÃO DE DISCLAIMER;
