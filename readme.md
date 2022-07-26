@@ -1,6 +1,6 @@
 ##Calculadora de IMC
 
-Projeto idealizado para usuários acessarem e realizarem o calculo do seu indice de massa corporal.
+Projeto idealizado para usuários acessarem e realizarem o cálculo do seu índice de massa corporal.
 
 O IMC é calculado dividindo o peso (em kg) pela altura ao quadrado (em m), de acordo com a seguinte fórmula: IMC = peso / (altura x altura).
 
