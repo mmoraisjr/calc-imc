@@ -8,24 +8,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     
     <title>Calculadora de IMC</title>
 </head>
 <body>
     <header>
+
         <p>Calculadora de IMC</p>
+
     </header>
 
     <main>
-        
-        <label for="altura">Insira sua altura</label>
-        <input type="text" aria-label="altura">
-        <label for="peso">Insira seu peso</label>
-        <input type="text" aria-label="peso">
+        <div class="temp">
+            <label for="altura">Insira sua altura</label>
+            <input name="number" size="100" placeholder="Altura (m)" type="number">
+            <label for="peso">Insira seu peso</label>
+            <input name="peso" size="100" placeholder="Peso (kg)" type="number">
+        </div>
 
     </main>
     
     <footer>
+
         <p>Desenvolvido por <a href="https://github.com/mmoraisjr">Marcos Morais</a></p>
         
     </footer>

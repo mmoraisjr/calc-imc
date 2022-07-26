@@ -4,4 +4,9 @@
 footer {
     background-color: var(--verde);
     text-align: center;
+    height: 100px;
+}
+
+footer p {
+    margin: 2.5rem 0;
 }
