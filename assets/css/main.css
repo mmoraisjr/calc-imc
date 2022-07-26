@@ -1,13 +1,6 @@
 @import url(_reset.css);
 @import url(_style.css);
 
-main {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    height: 100%;
-}
-
 input {
     width: 100%;
     padding: auto;
@@ -18,13 +11,20 @@ label {
     padding: 1rem;
 }
 
-.temp {
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.calc {
     background-color: var(--amarelo);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 60vh;
     padding: 2rem;
     margin: 5rem auto;
-    width: 50%;
+    width: 350px;
 }

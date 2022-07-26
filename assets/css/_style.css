@@ -4,6 +4,7 @@
     --vermelho: #FC7071;
     --amarelo: #f1f381;
     --cinza: #737380;
+    --branco: #fdfdfd;
 
     --off-vermelho: #e3084a80;
     --off-laranja: #eb5a5280;
@@ -25,4 +26,5 @@ body {
     display: flex;
     flex-direction: column;
     font-family: var(--fonte);
+    min-height: 100vh;
 }

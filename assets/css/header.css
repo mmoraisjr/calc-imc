@@ -8,5 +8,8 @@ header{
 }
 
 header p {
+    color: var(--branco);
+    font-size: 2rem;
+    font-weight: 700;
     margin: 2.5rem 0;
 }

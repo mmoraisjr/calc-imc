@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    
+
     <title>Calculadora de IMC</title>
 </head>
+
 <body>
     <header>
 
-        <p>Calculadora de IMC</p>
+        <p>calculadora de IMC</p>
 
     </header>
 
     <main>
-        <div class="temp">
-            <label for="altura">Insira sua altura</label>
-            <input name="number" size="100" placeholder="Altura (m)" type="number">
-            <label for="peso">Insira seu peso</label>
-            <input name="peso" size="100" placeholder="Peso (kg)" type="number">
-        </div>
+        <form class="form-calc">
+            <div class="calc">
+                <label for="altura">Insira sua altura</label>
+                <input id="altura" name="altura" size="100" placeholder="Altura (m)" type="number">
+                <label for="peso">Insira seu peso</label>
+                <input id="peso" name="peso" size="100" placeholder="Peso (kg)" type="number">
+            </div>
+        </form>
 
     </main>
-    
+
     <footer>
 
-        Desenvolvido por <a href="https://github.com/mmoraisjr">Marcos Morais</a>
-        
+        <p>Desenvolvido por <a href="https://github.com/mmoraisjr">Marcos Morais</a></p>
+
     </footer>
+    
+    <script src="calc.js"></script>
 </body>
+
 </html>
