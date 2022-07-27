@@ -1,26 +1,20 @@
-var botaoCalcular = document.querySelector("#calcular");
-botaoCalcular.addEventListener("click", function(event){
-    event.preventDefault(); 
+var resultado = document.querySelector(".resultado__tabela");
 
-    var form = document.querySelector("#form-calc"); 
+var valorPeso = resultado.querySelector(".info-peso");
+var peso = valorPeso.textContent;
 
-    var resultado = obtemValoresDoForm(form);
-    console.log(resultado);
+var valorAltura = resultado.querySelector(".info-altura");
+var altura = valorAltura.textContent;
 
-    // var pacienteTr = montaTr(paciente);
+var valorImc = resultado.querySelector(".info-imc");
 
-    // var tabela = document.querySelector("#tabela-pacientes"); 
-    // tabela.appendChild(pacienteTr); 
-
-    // form.reset();
-})
-
-function obtemValoresDoForm(form){ 
-    var resultado = {
-        peso: form.peso.value,
-        altura: form.altura.value,
-        // imc: calculaImc(form.peso.value, form.altura.value)
-    }
-    
-    return resultado;
+if (peso <= 0 || peso >= 350) {
+    valorImc.textContent = "Valor do Peso Inválido";
+    resultado.classList.add("valor-invalido");
+} else if (altura <= 0 || altura >= 2.5) {
+    valorImc.textContent = "Valor da Altura Inválida";
+    resultado.classList.add("valor-invalido");
+} else {
+    var imc = peso / (altura * altura);
+    valorImc.textContent = imc.toFixed(2);
 }

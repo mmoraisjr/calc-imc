@@ -3,8 +3,12 @@
 
 input {
     width: 100%;
-    padding: auto;
     padding: .5rem ;
+    border-radius: 20px;
+}
+
+input::placeholder{
+    text-align: center;
 }
 
 label {
@@ -18,13 +22,37 @@ main {
     height: 100%;
 }
 
+table {
+    margin: 0 auto;
+}
+
+td {
+    padding: .5rem;
+    text-align: center;
+}
+
 .calc {
     background-color: var(--amarelo);
-    border-radius: 5px;
+    border-radius: 20px 20px 0px 0px;
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 30vh;
+    justify-content: space-evenly;
+    margin: 5rem auto 0 auto;
     padding: 2rem;
-    margin: 5rem auto;
     width: 350px;
+}
+.resultado {
+    background-color: var(--cinza);
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    padding: 2rem;
+    margin: 0 auto 5rem auto;
+    width: 350px;
+}
+
+.valor-invalido {
+    color: antiquewhite;
 }

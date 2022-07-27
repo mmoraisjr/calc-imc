@@ -5,6 +5,7 @@ header{
     background-color: var(--cinza);
     height: 100px;
     text-align: center;
+    text-shadow: .1rem .1rem #333;
 }
 
 header p {

@@ -24,12 +24,30 @@
 
     <main>
         <form class="form-calc">
-            <div class="calc">
-                <label for="altura">Insira sua altura</label>
-                <input id="altura" name="altura" size="100" placeholder="Altura (m)" type="number">
-                <label for="peso">Insira seu peso</label>
-                <input id="peso" name="peso" size="100" placeholder="Peso (kg)" type="number">
-            </div>
+            <section class="calc">
+                <div>
+                    <label for="altura">Insira sua altura</label>
+                    <input id="altura" name="altura" size="100" placeholder="Altura (m)" type="number">
+                </div>
+                <div>
+                    <label for="peso">Insira seu peso</label>
+                    <input id="peso" name="peso" size="100" placeholder="Peso (kg)" type="number">
+                </div>
+            </section>
+            <section class="resultado">
+                <table>
+                    <tr>
+                        <td>Seu Peso</td>
+                        <td>Sua Altura</td>
+                        <td>Seu IMC</td>
+                    </tr>
+                    <tr class="resultado__tabela">
+                        <td class="info-peso">80</td>
+                        <td class="info-altura">1.73</td>
+                        <td class="info-imc">0</td>
+                    </tr>
+                </table>
+            </section>
         </form>
 
     </main>
@@ -39,7 +57,7 @@
         <p>Desenvolvido por <a href="https://github.com/mmoraisjr">Marcos Morais</a></p>
 
     </footer>
-    
+
     <script src="calc.js"></script>
 </body>
 

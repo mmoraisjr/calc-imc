@@ -18,7 +18,7 @@ Depois de obter o resultado de IMC, deve-se interpretar o valor utilizando a seg
 |  Maior que 40 |  Obesidade grau III |
 
 ## Etapas do projeto
-- [x] DEFINIR PALETA DE CORES;
-- [ ] DEFINIR DESIGN DA PÁGINA;
+- [ ] DEFINIR PALETA DE CORES;
+- [x] DEFINIR DESIGN DA PÁGINA;
 - [ ] APLICAR AÇÃO DE CALCULAR;
-- [ ] ADICIONAR BOTÃO DE DISCLAIMER;
+- [ ] ADICIONAR BOTÃO DE DESCRIÇÃO E ORIENTAÇÃO;
