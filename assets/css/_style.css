@@ -1,10 +1,10 @@
 :root {
-    --azul: #0e2e79;
-    --verde: #0d5779;
-    --vermelho: #FC7071;
-    --amarelo: #f1f381;
-    --cinza: #737380;
-    --branco: #fdfdfd;
+    --azul1: #295872;
+    --azul2: #357599;
+    --azul3: #7292bf;
+    --azul4: #67a8cd;
+    --azul5: #8dbeda;
+    --azul6: #75a1ff;
 
     --off-vermelho: #e3084a80;
     --off-laranja: #eb5a5280;
@@ -22,9 +22,10 @@
 }
 
 body {
-    background-color: var(--azul);
+    background-color: var(--azul5);
     display: flex;
     flex-direction: column;
     font-family: var(--fonte);
     min-height: 100vh;
+    color: whitesmoke;
 }

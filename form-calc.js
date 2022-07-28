@@ -6,13 +6,12 @@ btnCalcula.addEventListener("click", function (event) {
     var peso = valorForm.peso.value;
     var altura = valorForm.altura.value;
     
-    var resultado = document.querySelector(".resultado__tabela");
-    var valorPeso = resultado.querySelector(".info-peso");
-    var valorAltura = resultado.querySelector(".info-altura");
-    var valorImc = resultado.querySelector(".info-imc");
+    var resultadoValores = document.querySelector(".resultado__valores");
+    var valorPeso = resultadoValores.querySelector(".info-peso");
+    var valorAltura = resultadoValores.querySelector(".info-altura");
+    var valorImc = resultadoValores.querySelector(".info-imc");
     
     valorPeso.textContent = peso
     valorAltura.textContent = altura;
-    valorImc.textContent = calculaImc(peso,altura);
-    
+    valorImc.textContent = calculaImc(peso,altura).toFixed(2);
 });

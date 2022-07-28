@@ -26,11 +26,11 @@
         <section class="calc">
             <form class="form-calc">
                 <div>
-                    <label for="altura">Insira sua altura</label>
+                    <label for="altura">Insira sua altura <i>(Ex.:1.50)</i></label>
                     <input id="altura" name="altura" size="100" placeholder="Altura (m)" type="number">
                 </div>
                 <div>
-                    <label for="peso">Insira seu peso</label>
+                    <label for="peso">Insira seu peso <i>(Ex.:50.3)</i></label>
                     <input id="peso" name="peso" size="100" placeholder="Peso (kg)" type="number">
                 </div>
                 <div>
@@ -39,29 +39,21 @@
             </form>
         </section>
         <section class="resultado">
-            <table class="resultado__tabela">
+            <table class="resultado__valores">
                 <tr>
                     <td>Seu Peso</td>
                     <td>Sua Altura</td>
                     <td>Seu IMC</td>
                 </tr>
                 <tr>
-                    <td class="info-peso">0</td>
-                    <td class="info-altura">0</td>
-                    <td class="info-imc">0</td>
+                    <td class="info-peso"></td>
+                    <td class="info-altura"></td>
+                    <td class="info-imc"></td>
                 </tr>
             </table>
-            <table>
+            <table class="resultado__nivel">
                 <tr>
-                    <td class="n1"></td>
-                    <td class="n2"></td>
-                    <td class="n3"></td>
-                    <td class="n4"></td>
-                    <td class="n5"></td>
-                    <td class="n6"></td>
-                </tr>
-                <tr>
-                    <td class="msg-imc">0</td>
+                    <td class="msg-imc"></td>
                 </tr>
             </table>
         </section>

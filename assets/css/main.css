@@ -2,9 +2,10 @@
 @import url(_style.css);
 
 button {
-    background-color: var(--vermelho);
+    background-color: var(--azul6);
     border: none;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -12,6 +13,7 @@ button {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
+    text-shadow: .1rem .1rem #333;
 }
 
 form div {
@@ -19,9 +21,11 @@ form div {
 }
 
 input {
-    width: 100%;
-    padding: .5rem ;
     border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+    padding: .5rem ;
+    text-align: center;
+    width: 100%;
 }
 
 input::placeholder{
@@ -49,7 +53,7 @@ td {
 }
 
 .calc {
-    background-color: var(--amarelo);
+    background-color: var(--azul4);
     border-radius: 20px 20px 0px 0px;
     display: flex;
     flex-direction: column;
@@ -60,50 +64,8 @@ td {
     width: 350px;
 }
 
-.n1 {
-    background-color: var(--off-verde);
-    padding: 1rem;
-    border-style: ridge;
-    border-color: aliceblue;
-}
-
-.n2 {
-    background-color: var(--off-azul);
-    padding: 1rem;
-    border-style: ridge;
-    border-color: aliceblue;
-}
-
-.n3 {
-    background-color: var(--off-amarelo);
-    padding: 1rem;
-    border-style: ridge;
-    border-color: aliceblue;
-}
-
-.n4 {
-    background-color: var(--off-laranja);
-    padding: 1rem;
-    border-style: ridge;
-    border-color: aliceblue;
-}
-
-.n5 {
-    background-color: var(--off-vermelho);
-    padding: 1rem;
-    border-style: ridge;
-    border-color: aliceblue;
-}
-
-.n6 {
-    background-color: black;
-    padding: 1rem;
-    border-style: ridge;
-    border-color: aliceblue;
-}
-
 .resultado {
-    background-color: var(--cinza);
+    background-color: var(--azul2);
     border-radius: 0px 0px 20px 20px;
     display: flex;
     flex-direction: column;
