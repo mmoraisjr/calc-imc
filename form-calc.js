@@ -1,13 +1,3 @@
-// var resultado = document.querySelector(".resultado__tabela");
-
-// var valorPeso = resultado.querySelector(".info-peso");
-// var peso = valorPeso.textContent;
-
-// var valorAltura = resultado.querySelector(".info-altura");
-// var altura = valorAltura.textContent;
-
-// var valorImc = resultado.querySelector(".info-imc");
-
 var btnCalcula = document.querySelector("#calc-imc");
 btnCalcula.addEventListener("click", function (event) {
     event.preventDefault();
