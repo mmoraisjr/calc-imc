@@ -23,8 +23,8 @@
     </header>
 
     <main>
-        <form class="form-calc">
-            <section class="calc">
+        <section class="calc">
+            <form class="form-calc">
                 <div>
                     <label for="altura">Insira sua altura</label>
                     <input id="altura" name="altura" size="100" placeholder="Altura (m)" type="number">
@@ -33,22 +33,35 @@
                     <label for="peso">Insira seu peso</label>
                     <input id="peso" name="peso" size="100" placeholder="Peso (kg)" type="number">
                 </div>
-            </section>
-            <section class="resultado">
-                <table>
-                    <tr>
-                        <td>Seu Peso</td>
-                        <td>Sua Altura</td>
-                        <td>Seu IMC</td>
-                    </tr>
-                    <tr class="resultado__tabela">
-                        <td class="info-peso">80</td>
-                        <td class="info-altura">1.73</td>
-                        <td class="info-imc">0</td>
-                    </tr>
-                </table>
-            </section>
-        </form>
+                <div>
+                    <button id="calc-imc" class="btn">CALCULAR</button>
+                </div>
+            </form>
+        </section>
+        <section class="resultado">
+            <table class="resultado__tabela">
+                <tr>
+                    <td>Seu Peso</td>
+                    <td>Sua Altura</td>
+                    <td>Seu IMC</td>
+                </tr>
+                <tr>
+                    <td class="info-peso">0</td>
+                    <td class="info-altura">0</td>
+                    <td class="info-imc">0</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="n1"></td>
+                    <td class="n2"></td>
+                    <td class="n3"></td>
+                    <td class="n4"></td>
+                    <td class="n5"></td>
+                    <td class="n6"></td>
+                </tr>
+            </table>
+        </section>
 
     </main>
 
