@@ -1,4 +1,6 @@
-var btnCalcula = document.querySelector("#calc-imc");
+const btnCalcula = document.querySelector("#calc-imc");
+const btnLimpar = document.querySelector("#limpar");
+
 btnCalcula.addEventListener("click", function (event) {
     event.preventDefault();
 
@@ -15,3 +17,13 @@ btnCalcula.addEventListener("click", function (event) {
     valorAltura.textContent = altura;
     valorImc.textContent = calculaImc(peso,altura).toFixed(2);
 });
+
+
+btnLimpar.addEventListener("click", (event) => {
+    event.preventDefault();
+
+    var altura = document.querySelector("#altura")
+    var peso = document.querySelector("#peso")
+    peso.value = "";
+    altura.value = "";
+})
